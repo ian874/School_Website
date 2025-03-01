@@ -4,34 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imani Presbyterian School</title>
+
+    <!-- Import the Montserrat font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Link to your external CSS file -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">Imani Presbyterian School</div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="courses.html">Courses</a></li>
-                <li><a href="admissions.html">Admissions</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
+<header>
+    <!-- School Name with the logo class applied -->
+    <div class="logo">Imani Presbyterian School</div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li class="dropdown">
+                <a href="#">Academics ▼</a>
+                <ul class="dropdown-menu">
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="#">JSS (Upcoming)</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contacts</a></li>
+        </ul>
+    </nav>
+</header>
+
     <section class="hero">
-        <div class="hero-overlay"></div>
-        <div class="hero-text">
+        <div class="hero-overlay">
             <h1>Welcome to Imani Presbyterian School</h1>
             <p>Where Excellence Meets Faith</p>
             <a href="admissions.html" class="cta-button">Apply Now</a>
         </div>
     </section>
-    
+
+    <section class="info-section">
+      <div class="info-box">
+        <h2>Why Choose Us?</h2>
+        <p>Providing holistic education guided by Christian values.</p>
+      </div>
+    </section>
+
+    <section class="upcoming-section">
+       <div class="upcoming-box">
+        <h2>Upcoming Junior Secondary School</h2>
+        <p>Our new junior secondary program is coming soon!</p>
+       </div>
+    </section>
+
     <footer>
-        <p>Contact us: (123) 456-7890 | info@imanischool.com</p>
+        <p>&copy; 2025 Imani Presbyterian School | Gwa Kairu, Ruiru</p>
     </footer>
 </body>
 </html>
